@@ -32,12 +32,30 @@ u{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2.5em;
+}
+
+.card{
+max-width: 300px;
+min-width: 20%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
 }
 
 .project {
-    width: 200px;
-    height: 170px;
-    border: 1px solid white;
+    /* width: 200px;
+    height: 170px; */
+    /* border: 1px solid white; */
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -46,21 +64,21 @@ u{
 }
 
 button {
-    width: 180px;
+    width: 200px;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     font-size: 20px;
     background-color: transparent;
     border: 1px solid white;
-    color: white;
+    color: #224;
 }
 
 
 a{
     text-decoration: none;
     text-align: center;
-    color:aliceblue;
+    color: #446;
 }
 
 
