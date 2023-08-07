@@ -3,18 +3,26 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
-    background-color: #dab7c8;
+    font-family: 'Outfit', sans-serif;
+    background:
+    url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+    center / cover no-repeat fixed;
     user-select: none;
+    /* background-color: #dab7c8; */
   }
 
   h1 {
     text-align: center;
+    color: #4000b5;
 }
 
 h2 {
     margin-top: 0;
     text-align: center;
+    color: #fff0c6;
+}
+u{
+  color:  #4000b5;
 }
 
 
@@ -54,3 +62,5 @@ a{
     text-align: center;
     color:aliceblue;
 }
+
+
